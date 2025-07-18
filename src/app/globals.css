@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 背景アニメーション用 keyframes（例: 28個分）*/
+@keyframes floatY0 { 0%{transform:translate(0,0);} 20%{transform:translate(5px,-10px) scale(1.05);} 50%{transform:translate(10px,-20px) scale(0.97);} 80%{transform:translate(-5px,10px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY1 { 0%{transform:translate(0,0);} 20%{transform:translate(-8px,-7px) scale(1.04);} 50%{transform:translate(-16px,-14px) scale(0.98);} 80%{transform:translate(4px,8px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY2 { 0%{transform:translate(0,0);} 20%{transform:translate(7px,-12px) scale(1.03);} 50%{transform:translate(14px,-24px) scale(0.99);} 80%{transform:translate(-7px,12px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY3 { 0%{transform:translate(0,0);} 20%{transform:translate(6px,-8px) scale(1.06);} 50%{transform:translate(12px,-16px) scale(0.96);} 80%{transform:translate(-6px,8px) scale(1.04);} 100%{transform:translate(0,0);} }
+@keyframes floatY4 { 0%{transform:translate(0,0);} 20%{transform:translate(-9px,-11px) scale(1.02);} 50%{transform:translate(-18px,-22px) scale(1.01);} 80%{transform:translate(9px,11px) scale(0.99);} 100%{transform:translate(0,0);} }
+@keyframes floatY5 { 0%{transform:translate(0,0);} 20%{transform:translate(8px,-9px) scale(1.05);} 50%{transform:translate(16px,-18px) scale(0.97);} 80%{transform:translate(-8px,9px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY6 { 0%{transform:translate(0,0);} 20%{transform:translate(-7px,-13px) scale(1.03);} 50%{transform:translate(-14px,-26px) scale(0.98);} 80%{transform:translate(7px,13px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY7 { 0%{transform:translate(0,0);} 20%{transform:translate(10px,-6px) scale(1.04);} 50%{transform:translate(20px,-12px) scale(0.99);} 80%{transform:translate(-10px,6px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY8 { 0%{transform:translate(0,0);} 20%{transform:translate(-5px,-10px) scale(1.05);} 50%{transform:translate(-10px,-20px) scale(0.97);} 80%{transform:translate(5px,10px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY9 { 0%{transform:translate(0,0);} 20%{transform:translate(8px,-7px) scale(1.04);} 50%{transform:translate(16px,-14px) scale(0.98);} 80%{transform:translate(-4px,8px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY10 { 0%{transform:translate(0,0);} 20%{transform:translate(7px,-12px) scale(1.03);} 50%{transform:translate(14px,-24px) scale(0.99);} 80%{transform:translate(-7px,12px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY11 { 0%{transform:translate(0,0);} 20%{transform:translate(6px,-8px) scale(1.06);} 50%{transform:translate(12px,-16px) scale(0.96);} 80%{transform:translate(-6px,8px) scale(1.04);} 100%{transform:translate(0,0);} }
+@keyframes floatY12 { 0%{transform:translate(0,0);} 20%{transform:translate(-9px,-11px) scale(1.02);} 50%{transform:translate(-18px,-22px) scale(1.01);} 80%{transform:translate(9px,11px) scale(0.99);} 100%{transform:translate(0,0);} }
+@keyframes floatY13 { 0%{transform:translate(0,0);} 20%{transform:translate(8px,-9px) scale(1.05);} 50%{transform:translate(16px,-18px) scale(0.97);} 80%{transform:translate(-8px,9px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY14 { 0%{transform:translate(0,0);} 20%{transform:translate(-7px,-13px) scale(1.03);} 50%{transform:translate(-14px,-26px) scale(0.98);} 80%{transform:translate(7px,13px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY15 { 0%{transform:translate(0,0);} 20%{transform:translate(10px,-6px) scale(1.04);} 50%{transform:translate(20px,-12px) scale(0.99);} 80%{transform:translate(-10px,6px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY16 { 0%{transform:translate(0,0);} 20%{transform:translate(-5px,-10px) scale(1.05);} 50%{transform:translate(-10px,-20px) scale(0.97);} 80%{transform:translate(5px,10px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY17 { 0%{transform:translate(0,0);} 20%{transform:translate(8px,-7px) scale(1.04);} 50%{transform:translate(16px,-14px) scale(0.98);} 80%{transform:translate(-4px,8px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY18 { 0%{transform:translate(0,0);} 20%{transform:translate(7px,-12px) scale(1.03);} 50%{transform:translate(14px,-24px) scale(0.99);} 80%{transform:translate(-7px,12px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY19 { 0%{transform:translate(0,0);} 20%{transform:translate(6px,-8px) scale(1.06);} 50%{transform:translate(12px,-16px) scale(0.96);} 80%{transform:translate(-6px,8px) scale(1.04);} 100%{transform:translate(0,0);} }
+@keyframes floatY20 { 0%{transform:translate(0,0);} 20%{transform:translate(-9px,-11px) scale(1.02);} 50%{transform:translate(-18px,-22px) scale(1.01);} 80%{transform:translate(9px,11px) scale(0.99);} 100%{transform:translate(0,0);} }
+@keyframes floatY21 { 0%{transform:translate(0,0);} 20%{transform:translate(8px,-9px) scale(1.05);} 50%{transform:translate(16px,-18px) scale(0.97);} 80%{transform:translate(-8px,9px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY22 { 0%{transform:translate(0,0);} 20%{transform:translate(-7px,-13px) scale(1.03);} 50%{transform:translate(-14px,-26px) scale(0.98);} 80%{transform:translate(7px,13px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY23 { 0%{transform:translate(0,0);} 20%{transform:translate(10px,-6px) scale(1.04);} 50%{transform:translate(20px,-12px) scale(0.99);} 80%{transform:translate(-10px,6px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY24 { 0%{transform:translate(0,0);} 20%{transform:translate(-5px,-10px) scale(1.05);} 50%{transform:translate(-10px,-20px) scale(0.97);} 80%{transform:translate(5px,10px) scale(1.03);} 100%{transform:translate(0,0);} }
+@keyframes floatY25 { 0%{transform:translate(0,0);} 20%{transform:translate(8px,-7px) scale(1.04);} 50%{transform:translate(16px,-14px) scale(0.98);} 80%{transform:translate(-4px,8px) scale(1.01);} 100%{transform:translate(0,0);} }
+@keyframes floatY26 { 0%{transform:translate(0,0);} 20%{transform:translate(7px,-12px) scale(1.03);} 50%{transform:translate(14px,-24px) scale(0.99);} 80%{transform:translate(-7px,12px) scale(1.02);} 100%{transform:translate(0,0);} }
+@keyframes floatY27 { 0%{transform:translate(0,0);} 20%{transform:translate(6px,-8px) scale(1.06);} 50%{transform:translate(12px,-16px) scale(0.96);} 80%{transform:translate(-6px,8px) scale(1.04);} 100%{transform:translate(0,0);} }
